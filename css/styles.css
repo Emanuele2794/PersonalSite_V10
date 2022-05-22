@@ -11,9 +11,13 @@
 /* Classi */
 .card {
   margin: 50px;
-  border: 0;
-}
+  border: 1px solid;
 
+}
+.card-img-top {
+  max-width: 286px;
+  max-height: 142px;
+}
 .card-text {
   margin-left: auto;
   text-align: center;
@@ -67,6 +71,10 @@ margin-left: 100px;
 
 
 /* Selettori */
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
