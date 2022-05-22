@@ -3,10 +3,33 @@
   background-color: #d8e6ed;
 }
 
+#competenze {
+  margin: 0;
+  text-align: center;
+}
+
 /* Classi */
+.card {
+  margin: 50px;
+  border: 0;
+}
+
+.card-text {
+  margin-left: auto;
+  text-align: center;
+}
+
 .container-fluid {
   padding: 0;
-}
+  }
+  .container-row-card {
+    text-align: center;
+    margin-right: 0;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .immagine-nome {
   text-align: center;
 }
@@ -17,7 +40,7 @@
 .logo {
   height: 80px;
   width: 80px;
-margin-left: 50px;
+margin-left: 100px;
 }
 .navbar {
   padding-bottom: 0;
@@ -29,9 +52,19 @@ margin-left: 50px;
 .nav-item {
   padding: 0 25px;
 }
-.row {
+.row-card{
+  padding: 30px 0;
+  margin: 0 100px 0;
+}
+
+.row-name {
+  margin-left: 50px;
   padding: 30px 0;
 }
+.servizi {
+  padding-top: 20px;
+}
+
 
 /* Selettori */
 h1 {
@@ -53,3 +86,7 @@ margin-left: 50px;
   p {
     margin-left: 50px;
   }
+body {
+  margin-right: 0;
+}
+/* Media Query*/
