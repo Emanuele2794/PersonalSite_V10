@@ -8,16 +8,29 @@
   text-align: center;
 }
 
+#esperienze {
+  padding-top: 10px;
+  margin-left: 80px;
+}
+
 /* Classi */
 .card {
   margin: 50px;
   border: 1px solid;
-
+  border-radius: 5px;
 }
+
+.card:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 .card-img-top {
   max-width: 286px;
   max-height: 142px;
 }
+
 .card-text {
   margin-left: auto;
   text-align: center;
@@ -25,38 +38,49 @@
 
 .container-fluid {
   padding: 0;
-  }
-  .container-row-card {
-    text-align: center;
-    margin-right: 0;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+}
+
+.container-row-card {
+  text-align: center;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.esperienze-lavorative {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .immagine-nome {
   text-align: center;
 }
+
 .nome-ruolo {
   text-align: left;
-
 }
+
 .logo {
   height: 80px;
   width: 80px;
-margin-left: 100px;
+  margin-left: 100px;
 }
+
 .navbar {
   padding-bottom: 0;
 }
+
 .navbar-nav {
   position: relative;
   right: 137px;
 }
+
 .nav-item {
   padding: 0 25px;
 }
-.row-card{
+
+.row-card {
   padding: 30px 0;
   margin: 0 100px 0;
 }
@@ -65,13 +89,17 @@ margin-left: 100px;
   margin-left: 50px;
   padding: 30px 0;
 }
-.servizi {
-  padding-top: 20px;
-}
 
+.servizi {
+  padding-top: 50px;
+}
 
 /* Selettori */
 a {
+  text-decoration: none;
+}
+
+a:link {
   text-decoration: none;
 }
 
@@ -82,19 +110,28 @@ h1 {
   font-weight: bold;
   padding-top: 30px;
   margin-bottom: 0;
-margin-left: 50px;
+  margin-left: 50px;
 }
+
 nav {
   position: fixed;
 }
+
 h2 {
   font-family: "Montserrat", sans-serif;
-margin-left: 50px;
-  }
-  p {
-    margin-left: 50px;
-  }
+  margin-left: 50px;
+}
+
+p {
+  margin-left: 50px;
+}
+
 body {
   margin-right: 0;
 }
+
+li {
+  list-style-type: none;
+}
+
 /* Media Query*/
