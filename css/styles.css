@@ -9,8 +9,16 @@
 }
 
 #esperienze {
+  text-align: center;
   padding-top: 10px;
-  margin-left: 80px;
+  }
+#chi-sono {
+  text-align: center;
+}
+
+#carouselExperiences {
+  text-align: center;
+  padding-top: 50px;
 }
 
 /* Classi */
@@ -133,5 +141,6 @@ body {
 li {
   list-style-type: none;
 }
+
 
 /* Media Query*/
