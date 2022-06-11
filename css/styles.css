@@ -6,19 +6,22 @@
 #competenze {
   margin: 0;
   text-align: center;
+  background-color: #d8e6ed;
 }
 
 #esperienze {
   text-align: center;
-  padding-top: 10px;
   }
+  
 #chi-sono {
   text-align: center;
+  padding: 7% 15%;
 }
 
 #carouselExperiences {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 /* Classi */
@@ -42,6 +45,10 @@
 .card-text {
   margin-left: auto;
   text-align: center;
+}
+
+.carousel-item {
+padding: 7% 15%;
 }
 
 .container-fluid {
