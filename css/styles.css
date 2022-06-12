@@ -1,7 +1,6 @@
 /* Id */
 #header {
   background-color: #d8e6ed;
-
 }
 
 #competenze {
@@ -12,20 +11,30 @@
 
 #esperienze {
   text-align: center;
-  }
+}
 
 #chi-sono {
   text-align: center;
-  padding: 7% 15%;
-}
+  padding: 3% 7% 7%;
+  background-image: url("chisono-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  }
 
 #carouselExperiences {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-}
+  }
 
 /* Classi */
+#chi-sono img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .card {
   margin: 50px;
   border: 1px solid;
@@ -49,13 +58,20 @@
 }
 
 .carousel-item {
-padding: 7% 15%;
-text-align: center;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.col {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
 }
 
 .container-fluid {
   padding: 0;
 }
+
 
 .container-row-card {
   text-align: center;
@@ -64,9 +80,18 @@ text-align: center;
   justify-content: center;
   align-items: center;
 }
+.cosa-mi-piace {
+  text-align: center;
+  font-family: "Montserrat-black", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-top: 3%;
+}
+
 .esperienze-lavorative {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 3%;
   padding-bottom: 20px;
 }
 
@@ -86,7 +111,6 @@ text-align: center;
 
 .navbar {
   padding-bottom: 0;
-
 }
 
 .navbar-nav {
@@ -96,10 +120,18 @@ text-align: center;
 
 .nav-item {
   padding: 0 25px;
+  color: black;
+}
+.nav-link {
+  color: black;
 }
 
 .riga-presentazione {
   margin-left: 50px;
+}
+
+.row {
+  padding-top: 50px;
 }
 
 .row-card {
@@ -116,12 +148,16 @@ text-align: center;
   padding-top: 50px;
 }
 
-.xnext {
+.img-company {
   width: 20%;
   margin: 20px;
 }
 
 /* Selettori */
+html {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -147,9 +183,8 @@ nav {
 h2 {
   font-family: "Montserrat", sans-serif;
   margin-left: 50px;
+  font-size: 3rem;
 }
-
-
 
 body {
   margin-right: 0;
@@ -159,5 +194,22 @@ li {
   list-style-type: none;
 }
 
-
 /* Media Query*/
+@media screen and (max-widht: 700px ) {
+  #header {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+
+  #competenze {
+    text-align: center;
+  }
+
+  .nav-item {
+    color: black;
+  }
+}
